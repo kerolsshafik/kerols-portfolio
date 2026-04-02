@@ -1,0 +1,36 @@
+<svg width="840" height="840" viewBox="0 0 840 840" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Avatar illustration">
+  <defs>
+    <linearGradient id="g1" x1="122" y1="56" x2="724" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B7CFA" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#6FE7B4" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.18"/>
+    </linearGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 240) rotate(35) scale(520 520)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40" y="-40" width="920" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+  </defs>
+
+  <rect x="40" y="40" width="760" height="760" rx="64" fill="url(#g1)"/>
+  <circle cx="318" cy="270" r="240" fill="url(#g2)" opacity="0.55"/>
+
+  <g opacity="0.16" filter="url(#soft)">
+    <circle cx="664" cy="220" r="7" fill="#0B1220"/>
+    <circle cx="610" cy="300" r="6" fill="#0B1220"/>
+    <circle cx="706" cy="334" r="5" fill="#0B1220"/>
+    <circle cx="580" cy="420" r="6" fill="#0B1220"/>
+  </g>
+
+  <g>
+    <circle cx="420" cy="420" r="220" fill="rgba(255,255,255,0.28)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+    <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+      font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-weight="800"
+      font-size="160" fill="rgba(11,18,32,0.85)">
+      KS
+    </text>
+  </g>
+</svg>
+
